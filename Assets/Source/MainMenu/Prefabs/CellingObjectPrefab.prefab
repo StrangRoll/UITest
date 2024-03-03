@@ -220,7 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5082868338420650598}
   m_Layer: 5
-  m_Name: CellingPrefab
+  m_Name: CellingObjectPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
