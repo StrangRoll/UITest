@@ -1005,6 +1005,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 506518026}
     m_Modifications:
+    - target: {fileID: 2242754568274677631, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8ac04e578ad60494b94862744744b577, type: 3}
+    - target: {fileID: 5538953725629274176, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5538953725629274176, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5edfee3f3076c6a47be64a39b3c5a9b3, type: 3}
     - target: {fileID: 5688232239076841683, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
       propertyPath: m_Name
       value: LevelButton
@@ -1798,7 +1810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1932,7 +1944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2298,6 +2310,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 506518026}
     m_Modifications:
+    - target: {fileID: 2242754568274677631, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5edfee3f3076c6a47be64a39b3c5a9b3, type: 3}
     - target: {fileID: 3833505823422761073, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
       propertyPath: m_SizeDelta.x
       value: 476.6444
@@ -2318,6 +2334,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6e5f9cf513493314a9bf688167670e94, type: 3}
+    - target: {fileID: 5538953725629274176, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5538953725629274176, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5538953725629274176, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5edfee3f3076c6a47be64a39b3c5a9b3, type: 3}
     - target: {fileID: 5688232239076841683, guid: 105744cdb9a85ce41b9687a9d396448c, type: 3}
       propertyPath: m_Name
       value: ChapterButton
@@ -3109,7 +3137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
